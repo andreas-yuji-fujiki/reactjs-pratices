@@ -4,7 +4,9 @@ function App() {
 
   return (
     <>
-      <ExampleComponent/>
+      <ExampleComponent text="I'm Sun!"/>
+      <ExampleComponent text="NEVER forget who you are."/>
+      <ExampleComponent text="Get some coffe, let's get some code! </>"/>
     </>
   )
 }

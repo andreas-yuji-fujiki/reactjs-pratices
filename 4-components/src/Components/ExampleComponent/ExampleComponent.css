@@ -9,6 +9,9 @@ h1{
     align-items: center;
     
     /* text */
+    text-align: center;
+    font-size: 7vw;
+    padding: 0 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 900;
@@ -17,16 +20,27 @@ h1{
 
     /* colors */
     color: #fff;
-    background-color: rgb(31, 31, 31);
+    background-color: #1f1f1f;
 }
 h1:hover{
     cursor: pointer;
     color: #c4c4c4;
-    animation: rotateAnimation 15s infinite;
+    animation: rotateAnimation 15s;
 }
 @keyframes rotateAnimation {
     from{
         transform: rotate(0);
+        background-color: #1f1f1f;
+    }
+    30%{
+        background-color: cadetblue;
+    }
+    50%{
+        background-color: #fff;
+        color: #000;
+    }
+    70%{
+        background-color: blueviolet;
     }
     to{
         transform: rotate(360deg);

@@ -1,10 +1,10 @@
 import './ExampleComponent.css'
 
-export default function ExampleComponent() {
+export default function ExampleComponent( {text} ) {
     return(
         <div className='ExampleComponent'>
             <h1>
-                Ayo! I'm a component!
+               {text}
             </h1>
         </div>
     )
